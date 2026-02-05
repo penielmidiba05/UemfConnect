@@ -47,7 +47,8 @@ lib/
 
 ---
 
-▶️ Installation et exécution
+## ▶️ Installation et exécution
+
 Prérequis
 Flutter SDK installé
 
@@ -84,7 +85,7 @@ Mode sombre
 
 Version iOS
 
-👨‍💻 Auteur
+## 👨‍💻 Auteur
 Peniel Midiba
 Étudiant & développeur Flutter
 GitHub : penielmidiba05
