@@ -1,16 +1,91 @@
-# uemfconnect
+# 📱 UEMFConnect
 
-A new Flutter project.
+UEMFConnect est une application mobile développée avec **Flutter** destinée à faciliter la gestion et la participation aux événements universitaires de l’Université Euromed de Fès (UEMF).  
+Elle offre une interface moderne permettant aux étudiants de découvrir les événements, consulter leurs détails, recevoir des notifications et gérer leur profil.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Fonctionnalités
 
-A few resources to get you started if this is your first Flutter project:
+- 📅 Consultation des événements universitaires
+- 🏀 Détails des événements (date, lieu, description, image)
+- ⭐ Suivi des événements
+- 🔔 Notifications
+- 🧑‍🎓 Gestion du profil utilisateur
+- ⚙️ Paramètres de l’application
+- 🚀 Interface fluide et responsive
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies utilisées
+
+- **Flutter** (SDK)
+- **Dart**
+- **Provider** (gestion d’état)
+- **Material Design**
+- Android SDK
+
+---
+
+## 📂 Architecture du projet
+
+```text
+lib/
+ ├── main.dart
+ ├── screens/
+ │    ├── splash_screen.dart
+ │    ├── login_screen.dart
+ │    ├── home_screen.dart
+ │    ├── event_detail_screen.dart
+ │    ├── my_events_screen.dart
+ │    ├── notifications_screen.dart
+ │    ├── profile_screen.dart
+ │    └── settings_screen.dart
+ ├── providers/
+ │    └── event_provider.dart
+ └── widgets/
+▶️ Installation et exécution
+Prérequis
+Flutter SDK installé
+
+Android Studio ou VS Code
+
+Un émulateur Android ou un téléphone physique
+
+Étapes
+Cloner le projet :
+
+git clone https://github.com/penielmidiba05/UemfConnect.git
+Accéder au dossier :
+
+cd UemfConnect
+Installer les dépendances :
+
+flutter pub get
+Lancer l’application :
+
+flutter run
+📸 Aperçu (optionnel)
+(Tu peux ajouter des captures d’écran ici plus tard)
+
+🔮 Améliorations futures
+Authentification (Firebase)
+
+Backend avec API REST
+
+Inscription aux événements
+
+Notifications push
+
+Mode sombre
+
+Version iOS
+
+👨‍💻 Auteur
+Peniel Midiba
+Étudiant & développeur Flutter
+GitHub : penielmidiba05
+
+📄 Licence
+Ce projet est à but éducatif.
+Libre d’utilisation et de modification
