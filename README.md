@@ -44,6 +44,9 @@ lib/
  ├── providers/
  │    └── event_provider.dart
  └── widgets/
+
+---
+
 ▶️ Installation et exécution
 Prérequis
 Flutter SDK installé
